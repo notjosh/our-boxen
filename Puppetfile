@@ -58,6 +58,14 @@ github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+github "adium", "1.4.0"
+github "chrome", "1.2.0"
+github "firefox", "1.2.3"
+github "iterm2", "1.2.5"
+github "osx", "2.8.0"
+github "seil", "1.0.4"
+#github "vlc", "1.1.0"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 # github "elasticsearch", "2.8.0"
