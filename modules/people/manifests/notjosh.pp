@@ -48,6 +48,20 @@ include adium
 	}
 
 	package { 'caskroom/versions/sublime-text3': provider => 'brewcask' }
+	package { '1password': provider => 'brewcask' }
+	package { 'base': provider => 'brewcask' }
+	package { 'cloud': provider => 'brewcask' }
+	package { 'nvalt': provider => 'brewcask' }
 	package { 'rowanj-gitx': provider => 'brewcask' }
+	package { 'sketch': provider => 'brewcask' }
+	package { 'slack': provider => 'brewcask' }
 	package { 'telegram': provider => 'brewcask' }
+	package { 'textual': provider => 'brewcask' }
+	package { 'whatsize': provider => 'brewcask' }
+
+	# App Store:
+	# - GIFs
+	# - Tweetbot
+	# - JSON Validator
+
 }
