@@ -41,10 +41,13 @@ include adium
 
 	package {
 		[
+			'archey',
 			'heroku-toolbelt',
 			'zsh',
 		]:
 	}
 
-
+	package { 'caskroom/versions/sublime-text3': provider => 'brewcask' }
+	package { 'rowanj-gitx': provider => 'brewcask' }
+	package { 'telegram': provider => 'brewcask' }
 }
